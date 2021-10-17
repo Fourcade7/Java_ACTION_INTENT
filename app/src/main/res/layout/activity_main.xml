@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:onClick="button1"
+        android:text="ACTION SEND ALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="button2"
+        android:text="ACTION SEND gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="button3"
+        android:text="ACTION SEND SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:onClick="button4"
+        android:text="ACTION DIAL CALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:onClick="button6"
+        android:text="ACTION VIEW telegram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:onClick="button7"
+        android:text="ACTION VIEW INSTAGRAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
