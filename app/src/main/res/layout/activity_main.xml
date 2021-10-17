@@ -7,9 +7,6 @@
     android:orientation="vertical"
     android:padding="15dp"
     tools:context=".MainActivity">
-
-
-
     <Button
         android:onClick="button1"
         android:text="ACTION SEND ALL"
@@ -33,12 +30,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></Button>
     <Button
-        android:onClick="button6"
+        android:onClick="button5"
         android:text="ACTION VIEW telegram"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></Button>
     <Button
-        android:onClick="button7"
+        android:onClick="button6"
         android:text="ACTION VIEW INSTAGRAM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></Button>

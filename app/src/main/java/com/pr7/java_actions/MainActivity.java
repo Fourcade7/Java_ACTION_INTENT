@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void button6(View view) {
+    public void button5(View view) {
         Intent telegram = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/Fourcade7"));
         final String appName = "org.telegram.messenger";
         telegram.setPackage(appName);
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void button7(View view) {
+    public void button6(View view) {
         Uri uri = Uri.parse("http://instagram.com/_u/xxx");
         Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
         likeIng.setPackage("com.instagram.android");
